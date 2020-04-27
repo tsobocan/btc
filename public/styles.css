@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #e3e3e3;
+}
+
+.search {
+    background-color: #5580aa;
+    border-radius: 8px;
+    height: 120px;
+    width: 80%;
+    margin-top: 45px;
+    border-color: grey;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.search-label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #9adcf2;
+    letter-spacing: 1px;
+}
+
+.search-input {
+    background-color: #fff;
+    height: 45px;
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.tr-icon, .tr-button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    color: darkgrey;
+}
+
+.tr-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 120px;
+    padding: 0px 10px;
+}
+
+.btn-primary {
+    font-family: 'Manrope', sans-serif;
+    background-color: #2a5988;
+}
+
+.tr-input input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.tr-input input {
+    border: none;
+}
+
+.tr-input {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    background-color: #5580aa;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 3px;
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.alertify {
+    border-left: 2px solid red;
+    background-color: #fff;
+    color: dimgrey;;
+    width: 80%;
+}
+
+.nav-item > .active {
+    font-family: 'Manrope', sans-serif;
+    background-color: #2a5988 !important;
+}
+
+.custom-tabs {
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .1);
+    padding: 10px;
+    width: 80%;
+    border-left: 1px solid #dbd9d9;
+    border-right: 1px solid #dbd9d9;
+    border-bottom: 1px solid #dbd9d9;
+    background-color: #fff !important;
+}
+
+.tab-content {
+
+}
