@@ -2,7 +2,6 @@
 
     class BlockChainConnector
     {
-
         private $api_url;
 
         public function __construct()
@@ -15,12 +14,12 @@
             try {
                 return file_get_contents($this->buildURL($tx_hash));
             } catch (Exception $e) {
-                return NULL;
+                return null;
             }
         }
 
         private function buildURL($tx_hash)
         {
-            return $this->api_url . $tx_hash;
+            return $this->api_url.$tx_hash;
         }
     }
